@@ -265,6 +265,14 @@ body{
   width: 40%;
   height:800px;
   color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  left: -300px;
+  top: 50px;
+
+
 
 }
 .title-techbox{
@@ -284,6 +292,8 @@ body{
 .tech-skills{
   list-style-type: none;
   height: 100%;
+  display: inline-block;
+  float: left;
 
 }
 .skillbox{
@@ -303,7 +313,7 @@ body{
    text-align: center;
 
 }
-.skillbox : hover{
+.skillbox:hover{
   border-radius: 100px;
    background: white;
    padding: 20px;
@@ -324,34 +334,20 @@ body{
   border-radius: 100px;
    background: #2E2E2E;
    padding: 20px;
-   width: 90px;
+   width: 70px;
    height: 20px;
-   color:white;
-   border: 2px solid white;
-   position: relative;
-   display: inline-block;
-   top: 220px;
-   left:110px;
-   border-width: 3px;
-   border-color: white;
-   text-align: center;
-
-
-}
-.skillbox-large: hover{
-  border-radius: 100px;
-   background: #2E2E2E;
-   padding: 20px;
-   width: 110px;
-   height: 30px;
    color: white;
    border: 2px solid white;
    position: relative;
    display: inline-block;
-   top: 220px;
-   left:100px;
+   top: 200px;
+   left: 100px;
    border-width: 3px;
    border-color: white;
+   text-align:center;
+
+
+}
 
 
 }
@@ -365,4 +361,43 @@ body{
   position: relative;
   left: 0px;
   top:10px;
+}
+.soft{
+  color: white
+  width: 40%;
+  float: left;
+  height:800px;
+  display: inline-block;
+  position: relative;
+  left: 600px;;
+  top: 50px;
+
+
+}
+.title-softbox{
+  left:100px;
+  top: 50px;
+  position: relative;
+
+}
+.soft-title{
+  top: 50px;
+  position: relative;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-family:serif;
+}
+.sline1{
+  left:50px;
+  top:-70px;
+  position: relative;
+
+}
+.sline2{
+
+    left:50px;
+    top:-60px;
+    position: relative;
 }
