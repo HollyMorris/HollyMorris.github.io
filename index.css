@@ -235,6 +235,11 @@ body{
 }
 .work{
  color: white;
+ width: 80%;
+ left:10%;
+ position: relative;
+ text-align: center;
+ top: -200px;
 }
 .worktitle{
   color: white;
@@ -248,7 +253,8 @@ body{
 
 }
 .work-title1{
-
+ top: 20px;
+ position: relative;
   font-size: 30px;
   text-align: center;
   color: #FFFFFF;
