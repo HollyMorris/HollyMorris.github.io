@@ -15,8 +15,8 @@ body{
   width: 400px;
   height: 100px;
   top: 100px;
-  left: 35%;
-  float: left;
+  left: -30%;
+  float: right;
   z-index: 200;
   border-radius: 25px;
   background-color: white;
