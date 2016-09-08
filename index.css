@@ -15,8 +15,9 @@ body{
   width: 400px;
   height: 100px;
   top: 100px;
-  left: 25%;
-
+  left: 35%;
+  float: left;
+  z-index: 200;
   border-radius: 25px;
   background-color: white;
   position: relative;
@@ -51,6 +52,7 @@ body{
   float:right;
   width: 60%;
   left: 20%;
+  top:100px;
     position: absolute;;
 
 }
