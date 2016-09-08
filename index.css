@@ -206,6 +206,17 @@ body{
   top: 5px;
   left: 0px;
 }
+.divider1{
+  width: 100%;
+  margin: 25px 0;
+    height: 1px;
+    background: white;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#2E2E2E), to(#2E2E2E), color-stop(50%, white));
+  position: relative;
+  top: -220px;
+  left: 0px;
+
+}
 .stat-div{
   width: 100%;
   margin: 25px 0;
