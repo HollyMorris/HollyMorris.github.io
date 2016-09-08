@@ -48,8 +48,8 @@ body{
 
   float:right;
   width: 60%;
-  left: -20%;
-    position: relative;
+  left: 20%;
+    position: absolute;;
 
 }
 .b1{
