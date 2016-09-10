@@ -15,8 +15,8 @@ body{
   width: 400px;
   height: 100px;
   top: 100px;
-  left: -33%;
-  float: right;
+  left: 35%;
+  float: left;
   z-index: 200;
   border-radius: 25px;
   background-color: white;
@@ -285,7 +285,7 @@ float:right;
   padding: 0;
   display: inline-block;
   left: -30%;
-  top: 50px;
+  top: 0px;
 
 
 
@@ -385,7 +385,7 @@ float:right;
   display: inline-block;
   position: relative;
   left: 45%;
-  top: 50px;
+  top: 0px;
 
 
 }
