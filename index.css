@@ -49,9 +49,9 @@ body{
 .buttons{
 
 
-  float:right;
-  width: 60%;
-  left: 20%;
+  float:left;
+  width: 600px;
+  left: -10%;
   top:100px;
     position: relative;
 
